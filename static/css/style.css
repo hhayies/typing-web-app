@@ -1,0 +1,48 @@
+.title {
+    font-family: 'Secular One', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    font-size: 80px;
+    letter-spacing: 5px;
+    top: 50%;
+    margin-top: -40px;
+    text-shadow: -1px -1px 0px blue,
+    3px 3px 0px blue,
+    6px 6px 0px blue;
+}
+
+.timer {
+    position: relative;
+    top: 1rem;
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgb(193, 7, 255);
+}
+
+#local {
+    width: 350px;
+    height: 200px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform : translate(-50%,-50%);
+    z-index: 10000;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.4);
+    border: double 5px #4ec4d3;
+}
+
+#local p {
+    font-size: 1.5em;
+}
+
+/*以下遅延の指定*/
+#correct {animation-delay: 0.5s;}
+#miss {animation-delay: 1s;}
+#typeing {animation-delay: 1.5s;}
+#average {animation-delay: 2s;}
+#accuracy {animation-delay: 2.5s;}
+
+

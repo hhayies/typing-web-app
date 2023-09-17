@@ -1,0 +1,92 @@
+h2 {
+    margin: 30px;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-weight: bold;
+}
+
+#text4 {
+    font-size: 2em;
+    color: #666;
+}
+
+#do-save {
+    width: 150px;
+    height: 40px;
+    padding: 0;
+}
+
+.log {
+    font-size: 1.5em;
+    margin: 50px;
+}
+
+.add-color {
+    font-size: 0.7em;
+    color: rgb(20, 168, 84);
+}
+
+#home {
+    margin: 50px auto 0;
+}
+
+#score {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 80px;
+    width: max-content;
+    max-width: 90%;
+    background-color: deeppink;
+    padding: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.circle {
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin: 0 8px;
+    background-color: rgb(243, 232, 232);
+}
+
+.mypoint {
+    background-color: aqua;
+}
+
+.enempoint {
+    background-color: rgb(89, 248, 158);
+}
+
+#backboard {
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    margin: 0;
+}
+
+#save {
+    width: 250px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform : translate(-50%,-50%);
+    z-index: 10000;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.4);
+    border: double 5px #4ec4d3;
+}
+
+#save p {
+    font-size: 1.5em;
+    color: #4d4d4d;
+}
+
+/*以下遅延の指定*/
+#average {animation-delay: 0.5s;}
+#accuracy {animation-delay: 1s;}
+

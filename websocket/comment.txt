@@ -1,0 +1,9 @@
+# 2番目で許可するドメインを指定
+socketio = SocketIO(app, cors_allowed_origins='*')
+
+# emitは送信、onは受信
+# emit(送信イベント名, 送信データ) 関数
+# on（受信イベント名, 受信データ） 関数
+# broadcastは他の人に情報を送信する
+emit('count_update', {'user_count': user_count}, broadcast=True)
+
